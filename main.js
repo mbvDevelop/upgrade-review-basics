@@ -107,7 +107,7 @@ if (songCount.includes({sound: "waves", count: 0})) {
     console.log("auuuu")
 }
 
-// let array = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote']
+let array = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote']
  
 function findArrayIndex(array, text) {
     let position = 0
