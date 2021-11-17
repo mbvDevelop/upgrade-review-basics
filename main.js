@@ -128,3 +128,15 @@ function rollDice(faces) {
 }
  
 console.log(rollDice(6))
+
+// Iteracion 6
+ 
+let array = ['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño']
+function swap(array, index1, index2) {
+    let buffer = array[index1];
+    array[index1] = array[index2];
+    array[index2] = buffer;
+    return array
+}
+console.log(swap(array, 1, 3))
+ 
